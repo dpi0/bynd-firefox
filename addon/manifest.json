@@ -2,8 +2,7 @@
   "manifest_version": 2,
   "name": "bynd",
   "version": "1.0",
-  "description": "Simple keyboard shortcuts for tab navigation",
-
+  "description": "Keybinds for Firefox",
   "permissions": ["tabs", "sessions", "activeTab"],
   "background": {
     "scripts": ["background.js"]
