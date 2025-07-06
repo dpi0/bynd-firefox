@@ -5,12 +5,13 @@
   "description": "Simple keyboard shortcuts for tab navigation",
 
   "permissions": ["tabs", "sessions", "activeTab"],
-
   "background": {
-    "scripts": ["background.js"],
-    "persistent": false
+    "scripts": ["background.js"]
   },
-
+  "icons": {
+    "48": "icons/bynd-48-48.png",
+    "96": "icons/bynd-96-96.png"
+  },
   "commands": {
     "prev-tab": {
       "suggested_key": {
