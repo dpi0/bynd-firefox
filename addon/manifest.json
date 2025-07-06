@@ -3,11 +3,14 @@
   "name": "bynd",
   "version": "1.0",
   "description": "Simple keyboard shortcuts for tab navigation",
-  "permissions": ["tabs"],
+
+  "permissions": ["tabs", "sessions", "activeTab"],
+
   "background": {
     "scripts": ["background.js"],
     "persistent": false
   },
+
   "commands": {
     "prev-tab": {
       "suggested_key": {
@@ -32,6 +35,114 @@
         "default": "Alt+W"
       },
       "description": "Close current tab"
+    },
+    "reload-page": {
+      "suggested_key": {
+        "default": "Alt+B"
+      },
+      "description": "Reload page"
+    },
+    "hard-reload-page": {
+      "suggested_key": {
+        "default": "Alt+Shift+B"
+      },
+      "description": "Hard reload page"
+    },
+    "reopen-tab": {
+      "suggested_key": {
+        "default": "Alt+V"
+      },
+      "description": "Reopen last closed tab"
+    },
+    "duplicate-tab": {
+      "suggested_key": {
+        "default": "Alt+N"
+      },
+      "description": "Duplicate current tab"
+    },
+    "pin-tab": {
+      "suggested_key": {
+        "default": "Alt+P"
+      },
+      "description": "Pin current tab"
+    },
+    "open-in-new-window": {
+      "suggested_key": {
+        "default": "Alt+Shift+N"
+      },
+      "description": "Open current tab in new window"
+    },
+    "move-tab-left": {
+      "suggested_key": {
+        "default": "Alt+Ctrl+H"
+      },
+      "description": "Move current tab left"
+    },
+    "move-tab-right": {
+      "suggested_key": {
+        "default": "Alt+Ctrl+L"
+      },
+      "description": "Move current tab right"
+    },
+    "toggle-mute": {
+      "suggested_key": {
+        "default": "Alt+Shift+M"
+      },
+      "description": "Toggle mute for current tab"
+    },
+    "switch-to-last-tab": {
+      "suggested_key": {
+        "default": "Alt+A"
+      },
+      "description": "Switch to last used tab"
+    },
+    "scroll-up": {
+      "suggested_key": {
+        "default": "Alt+K"
+      },
+      "description": "Scroll up by a bit"
+    },
+    "scroll-to-top": {
+      "suggested_key": {
+        "default": "Alt+Shift+K"
+      },
+      "description": "Scroll to top of page"
+    },
+    "scroll-down": {
+      "suggested_key": {
+        "default": "Alt+J"
+      },
+      "description": "Scroll down by a bit"
+    },
+    "scroll-to-bottom": {
+      "suggested_key": {
+        "default": "Alt+Shift+J"
+      },
+      "description": "Scroll to bottom of page"
+    },
+    "page-down": {
+      "suggested_key": {
+        "default": "Alt+Ctrl+J"
+      },
+      "description": "Page down"
+    },
+    "page-up": {
+      "suggested_key": {
+        "default": "Alt+Ctrl+K"
+      },
+      "description": "Page up"
+    },
+    "go-back": {
+      "suggested_key": {
+        "default": "Alt+Shift+H"
+      },
+      "description": "Go back to previous page"
+    },
+    "go-forward": {
+      "suggested_key": {
+        "default": "Alt+Shift+L"
+      },
+      "description": "Go forward to next page"
     }
   }
 }
