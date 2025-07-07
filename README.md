@@ -5,10 +5,10 @@
 <h1>bynd</h1>
 
 <p align="left">
-  <img src="https://img.shields.io/github/stars/dpi0/keees?style=flat-square&color=%23F7D800" alt="Stars">
-  <img src="https://img.shields.io/github/forks/dpi0/keees?style=flat-square" alt="Forks">
-  <img src="https://img.shields.io/github/contributors/dpi0/keees?style=flat-square&color=pink" alt="Contributors">
-  <img src="https://img.shields.io/github/license/dpi0/keees?style=flat-square&color=orange" alt="License">
+  <img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/dpi0/bynd-firefox/ci.yml?branch=main">
+  <img alt="GitHub Forks" src="https://img.shields.io/github/forks/dpi0/bynd-firefox?style=flat">
+  <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/dpi0/bynd-firefox?style=flat&color=pink">
+  <img alt="GitHub License" src="https://img.shields.io/github/license/dpi0/bynd-firefox">
 </p>
 
 <h4>Keybinds for Firefox</h4>
