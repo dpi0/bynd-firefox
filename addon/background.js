@@ -188,6 +188,17 @@ async function goForward() {
   browser.tabs.goForward();
 }
 
+async function copyUrl() {
+  const [tab] = await browser.tabs.query({
+    active: true,
+    currentWindow: true,
+  });
+
+  if (tab && tab.url) {
+    await navigator.clipboard.writeText(tab.url);
+  }
+}
+
 browser.commands.onCommand.addListener((command) => {
   switch (command) {
     case "prev-tab":
@@ -255,6 +266,9 @@ browser.commands.onCommand.addListener((command) => {
       break;
     case "go-forward":
       goForward();
+      break;
+    case "copy-url":
+      copyUrl();
       break;
   }
 });

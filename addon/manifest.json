@@ -143,6 +143,12 @@
         "default": "Alt+Shift+L"
       },
       "description": "Go forward to next page"
+    },
+    "copy-url": {
+      "suggested_key": {
+        "default": "Alt+M"
+      },
+      "description": "Copy current tab's URL to clipboard"
     }
   }
 }

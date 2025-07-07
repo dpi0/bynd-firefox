@@ -30,6 +30,7 @@
 | `Alt+A` | Switch to last used tab |
 | `Alt+V` | Reopen last closed tab |
 | `Alt+N` | Duplicate current tab |
+| `Alt+M` | Copy current tab's URL to clipboard |
 
 ### Tab Organization
 
