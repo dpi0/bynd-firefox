@@ -1,8 +1,6 @@
+# <img src="https://github.com/user-attachments/assets/90144cb7-9287-4110-8e41-2224ac476641" width="45" align="left"> bynd
+
 <div align="left">
-
-<img src="https://github.com/user-attachments/assets/90144cb7-9287-4110-8e41-2224ac476641" height="96" width="96">
-
-<h1>bynd</h1>
 
 <p align="left">
   <img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/dpi0/bynd-firefox/ci.yml?branch=main">
@@ -13,7 +11,9 @@
 
 <h4>Keybinds for Firefox</h4>
 
-[<img src="https://labels.tahoe.be/firefox_download_dark.svg" height="150" width="150">](https://addons.mozilla.org/firefox/addon/bynd/)
+<a href="https://addons.mozilla.org/firefox/addon/bynd">
+  <img src="https://labels.tahoe.be/firefox_download_dark.svg" alt="Get it on Firefox" width="120">
+</a>
 
 </p>
 
